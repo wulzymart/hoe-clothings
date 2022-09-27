@@ -6,6 +6,7 @@ import {
   clearItemFromCart,
   removeItems,
 } from "../../redux/cart/cart.actions";
+
 const CheckoutItem = ({ item, clearItem, addItem, removeItem }) => {
   const { imageUrl, name, quantity, price } = item;
   return (
